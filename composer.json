@@ -2,6 +2,13 @@
     "name": "santerref/countries-laravel",
 
     "description": "Countries for Laravel",
+    
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/santerref/countries.git"
+        }
+    ],
 
     "keywords": [
         "laravel",
@@ -32,7 +39,7 @@
         "laravel/framework": ">=5.3",
         "psr/simple-cache": "^3.0",
         "pragmarx/coollection": ">=0.6",
-        "pragmarx/countries": ">=0.5.8"
+        "santerref/countries": "dev-master"
     },
 
     "require-dev": {
